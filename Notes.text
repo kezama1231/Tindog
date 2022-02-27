@@ -1,0 +1,33 @@
+Bootstrap
+button colors - class= "btn btn-primary,secondary,warning,info..."
+
+button outlined colors appear later = class = "btn btn-outline-primary,..."
+
+button size = class = "btn-lg,sm"
+
+In stylesheet - @media(min-width:992px) - can be used to add custom settings check styles.css on margin left
+
+Card Component
+----------------
+1. Boilerplate - Single Card is one content
+
+div class = "card"
+  <div class = "card-header">
+    Card Header
+  <div class = "card-body">
+    Card Body
+  <div class = "card-footer">
+    Card Footer
+
+2. div class = "card-deck" --> wrap around all cards to present them side by side. Like so.
+
+div class = "card-deck"
+  div class = "card"
+    <div class = "card-header">
+    Card Header
+    <div class = "card-body">
+    Card Body
+    <div class = "card-footer">
+    Card Footer
+    
+ 3.With grid system - experimented with card-deck:alignment becomes messed up.
